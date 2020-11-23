@@ -43,3 +43,29 @@ body {
   width: 50%;
   border-radius: 20px;
 }
+
+.login {
+  float: left;
+  margin-top: 10%;
+  width: 30%;
+  margin-left: 50px;
+}
+
+.login-title {
+  margin-bottom: 40px;
+}
+
+.form-control {
+  width: 110%;
+}
+
+.remember-password {
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+.notebook-login {
+  z-index: 1;
+  margin-top: 10%;
+  text-align: center;
+}
