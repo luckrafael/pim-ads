@@ -41,12 +41,23 @@
             Faça seu login
         </h1>
         <p class="subtitle text-white container">
-            Insira seus dados de login e clique em 'Entrar'. <br>
-            <a href="#" title="Não possuo conta" class="">Não tem uma conta? Crie
-                agora.</a>
+            Insira seus dados e faça o seu cadastro. <br>
+            <a href="#" title="Não possuo conta" class="">Já tem uma conta? Faça login.</a>
         </p>
 
         <form class="form-padrao" method="POST">
+            <div class="form-group text-white container">
+                <label for="name"><strong>Nome</strong></label>
+                <input type="name" class="form-control" id="name" name="name" required>
+            </div>
+            <div class="form-group text-white container">
+                <label for="lastname"><strong>Sobrenome</strong></label>
+                <input type="lastname" class="form-control" id="lastname" name="lastname" required>
+            </div>
+            <div class="form-group text-white container">
+                <label for="cpf"><strong>Cpf</strong></label>
+                <input type="cpf" class="form-control" id="cpf" name="cpf" required>
+            </div>
             <div class="form-group text-white container">
                 <label for="email"><strong>E-mail</strong></label>
                 <input type="email" class="form-control" id="email" name="email" required>
@@ -57,18 +68,18 @@
                 <!-- <small class="text-right eye-password mb-3" title="Ver/Esconder a senha"><svg
                         xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
                         <path
-                            d="M572.52 241.4C518.29 135.59 410.93 64 288 64S57.68 135.64 3.48 241.41a32.35 32.35 0 0 0 0 29.19C57.71 376.41 165.07 448 288 448s230.32-71.64 284.52-177.41a32.35 32.35 0 0 0 0-29.19zM288 400a144 144 0 1 1 144-144 143.93 143.93 0 0 1-144 144zm0-240a95.31 95.31 0 0 0-25.31 3.79 47.85 47.85 0 0 1-66.9 66.9A95.78 95.78 0 1 0 288 160z" />
+                        d="M572.52 241.4C518.29 135.59 410.93 64 288 64S57.68 135.64 3.48 241.41a32.35 32.35 0 0 0 0 29.19C57.71 376.41 165.07 448 288 448s230.32-71.64 284.52-177.41a32.35 32.35 0 0 0 0-29.19zM288 400a144 144 0 1 1 144-144 143.93 143.93 0 0 1-144 144zm0-240a95.31 95.31 0 0 0-25.31 3.79 47.85 47.85 0 0 1-66.9 66.9A95.78 95.78 0 1 0 288 160z" />
                     </svg></small> -->
                 <div class="remember-password form-text "><a href="#" title="Esqueceu a senha?">Esqueceu a
                         senha?</a></div>
-                <button type="submit" class="btn btn-success ">Entrar</button>
+                <button type="submit" class="btn btn-success ">Cadastrar</button>
             </div>
         </form>
     </div>
-    <div class="notebook-login">
-        <img src="./assets/img/notebook.png" alt="">
-    </div>
 
+    <div class="notebook-login">
+        <img src="./assets/img/hero-phone@1x.png" alt="">
+    </div>
 </body>
 
 </html>
