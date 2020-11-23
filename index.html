@@ -6,7 +6,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
   <title>BlockChain</title>
-  <link rel="shorcut icon" href="https://genfavicon.com/tmp/icon_dc43711071c9e0fc6c08e8a326bfe505.ico">
+  <link rel="shorcut icon" href="assets/img/fav-icon.ico" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
     integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
   <link rel="stylesheet" href="./assets/styles/styles.css" />
@@ -15,10 +15,7 @@
 <body>
   <!--Navbar-->
   <nav class="navbar fixed-top navbar-expand-lg navbar-light">
-    <div class="container justify-content-center">
-      <a class="navbar-brand" href="#"><img src="./assets/img/logo.svg" alt=""></a>
-
-    </div>
+    <a class="navbar-brand" href="#"><img class="container logo" src="./assets/img/logo.svg" alt=""></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
       aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon">
@@ -27,8 +24,8 @@
         <div class="hamburguer-unit"></div>
       </span>
     </button>
-    <div class="collapse navbar-collapse justify-content-center container" id="navbarNavAltMarkup">
-      <div class="navbar-nav">
+    <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+      <div class="navbar-nav justify-content-between container">
         <a class="nav-item nav-link text-white" href="#"> Produtos <span class="sr-only">(current)</span></a>
         <a class="nav-item nav-link text-white" href="#"> Dados </a>
         <a class="nav-item nav-link text-white" href="/sobre.html"> Iniciar Sessão</a>
@@ -40,7 +37,17 @@
 
   <section>
     <div class="banner">
-      <img src="./assets/img/banner.svg" alt="">
+      <img class="img-fluid" src="./assets/img/banner.svg" alt="">
+    </div>
+  </section>
+
+  <section class="container justify-content-between">
+    <div class="phone">
+      <img class="img-fluid" src="./assets/img/hero-phone@1x.png" alt="">
+    </div>
+
+    <div class="button">
+      <a href="#">Obtenha sua conta agora mesmo</a>
     </div>
   </section>
 

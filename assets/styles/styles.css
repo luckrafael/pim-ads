@@ -6,6 +6,18 @@ body {
   background: #9d9d9d;
 }
 
+.nav-item {
+  margin: 10px;
+}
+
+.logo {
+  margin: 0 auto;
+}
+
 .banner {
   padding-top: 96px;
+}
+
+.phone {
+  margin-top: 50px;
 }
