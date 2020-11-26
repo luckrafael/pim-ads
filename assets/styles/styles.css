@@ -3,7 +3,11 @@ body {
 }
 
 p,
-li {
+li,
+td,
+th,
+table,
+h1 {
   color: #fff;
 }
 
@@ -47,6 +51,16 @@ li {
   height: 90px;
   width: 50%;
   border-radius: 20px;
+}
+
+.tabela h1 {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.img-section {
+  text-align: center;
 }
 
 .login {
